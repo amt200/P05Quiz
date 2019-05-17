@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">P05-Quiz</string>
+    <string name="app_name">Flight to Taipei</string>
+    <string name="ticket">Ticket Type</string>
+    <string name="one_way">One Way</string>
+    <string name="round">Round Trip</string>
+    <string name="pax">Number of pax</string>
+    <string name="submit">Submit</string>
 </resources>
