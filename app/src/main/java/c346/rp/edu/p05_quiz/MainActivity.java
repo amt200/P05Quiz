@@ -64,7 +64,7 @@ TextView number;
                         total = 100 * Integer.parseInt(number.getText().toString()) *2;
                     }
                 }
-                String display = "You have selected "+type+" Trip.\n"+"Your air ticket costs $ "+String.format("%.2f".total);
+                String display = "You have selected "+type+" Trip.\n"+"Your air ticket costs $ "+String.format("%.2f",total);
                 Intent it = new Intent(MainActivity.this, SecondActivity.class);
                 it.putExtra("output",display);
                 startActivity(it);
